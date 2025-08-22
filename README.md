@@ -64,4 +64,5 @@ By leveraging blockchain technology, we ensure that every proposal, vote, and fu
 ## Contract id:ST3BD9NRT190R3E4J52VZ97JGF69SZ56N1NCTDE81.DAO
 
 ## Screenshot:
-![alt text](image.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/93cd75e8-7ea7-4f87-9761-10d648fd25f5" />
+
