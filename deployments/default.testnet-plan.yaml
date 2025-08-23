@@ -1,0 +1,18 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://api.testnet.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: DAOTreasueryContract
+            expected-sender: ST3BD9NRT190R3E4J52VZ97JGF69SZ56N1NCTDE81
+            cost: 59360
+            path: "contracts\\DAOTreasueryContract.clar"
+            anchor-block-only: true
+            clarity-version: 3
+      epoch: "3.2"
